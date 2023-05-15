@@ -1,14 +1,25 @@
 # Project Overview
 In this project, our primary aim was to identify areas of high growth in building permits within New York City and predict the future trends of these permits. We focused our analysis on the five boroughs of New York City: Manhattan, Brooklyn, Bronx, Queens, and Staten Island.
 
-Our dataset consisted of building permit data obtained from the Department of Buildings[DOB NOW: Build – Approved Permits](https://data.cityofnewyork.us/Housing-Development/DOB-NOW-Build-Approved-Permits/rbx6-tga4) of New York City. This dataset contained information about each permit, including the filing reason, location details, work type, permittee's license type, approval and expiry dates, job description, estimated job costs, and owner information.
+Our dataset consisted of building permit data obtained from the Department of Buildings of New York City. This dataset contained information about each permit, including the filing reason, location details, work type, permittee's license type, approval and expiry dates, job description, estimated job costs, and owner information.
 
-
-Analysis of [DOB NOW: Build – Approved Permits](https://data.cityofnewyork.us/Housing-Development/DOB-NOW-Build-Approved-Permits/rbx6-tga4)
 # Business Understanding:
-The real estate industry is one of the largest and most important industries in New York City, with a significant impact on the local economy. As a result, real estate investment firms are always looking for ways to gain insights into the current demand for new construction in NYC, as this information can help them make informed decisions about where and when to invest.
+The real estate industry is a cornerstone of New York City's economy, significantly influencing local economic dynamics. With the city's architectural landscape continually evolving, there is a constant demand for new construction. Understanding these construction trends is crucial for stakeholders like real estate investment firms, as it allows them to make well-informed decisions and seize lucrative investment opportunities.
 
-One such real estate investment firm is interested in this topic and wants to conduct an analysis to gain insights into new construction in NYC. The firm is particularly interested in identifying the current demand for new construction in the city, as well as any trends or patterns that may be emerging in the industry.
+One such firm has expressed interest in leveraging data analysis to gain insights into the current and future construction trends in New York City. Their primary objectives are:
+
+## Understand the Current Demand: 
+The firm wants to identify areas within NYC experiencing high growth in building permits. This information will provide a snapshot of the current demand for new construction across the city and identify hotspots of development activity.
+
+## Identify Emerging Trends:
+The firm is interested in uncovering any patterns or trends in the approval dates of building permits. This might include seasonal variations, correlations with other factors, or long-term growth or decline trends within specific boroughs or community boards.
+
+## Forecast Future Demand:
+Using the historical data, the firm wants to predict the number of building permits likely to be approved over the next year within each borough and, more specifically, within the top growth community boards. This forecast will provide valuable insights into future construction demand and help the firm plan its investment strategy accordingly.
+
+Our goal is to not only understand the past and present construction trends but also accurately predict the future, providing our client with a robust foundation for their investment decisions.
+
+
 
 # Data Understanding: 
 The [DOB NOW: Build – Approved Permits](https://data.cityofnewyork.us/Housing-Development/DOB-NOW-Build-Approved-Permits/rbx6-tga4) dataset provides information on all approved construction permits issued by the Department of Buildings (DOB) since 2016. The dataset is provided by the Department of Buildings and is updated daily with an automated process. The data contains 446,000 rows and 35 columns, with each row representing a single permit.
