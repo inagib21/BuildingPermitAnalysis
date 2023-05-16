@@ -26,6 +26,14 @@ The [DOB NOW: Build – Approved Permits](https://data.cityofnewyork.us/Housing-
 
 The columns in the dataset provide information about the permit, such as the job filing number, filing reason, house number, street name, borough, lot, block, work type, permittee's license type, applicant information, approved date, issued date, expired date, job description, estimated job costs, and owner information.
 
+The [PLUTO](https://www.nyc.gov/site/planning/data-maps/open-data/dwn-pluto-mappluto.page) dataset, an acronym for Primary Land Use Tax Lot Output, is a richly detailed dataset provided by the New York City Department of City Planning. It contains extensive land use and geographic data at the tax lot level.
+
+This data is quite comprehensive and includes detailed information on every building in New York City, including the tax block and lot identifiers, building type, address, owner, land use category, zoning, commercial/residential floor area, year built, number of floors, and so forth.
+
+Additionally, the PLUTO dataset includes spatial information for each tax lot, namely the longitude and latitude, which can be used to map the data.
+
+In our project, we're using the PLUTO dataset to supplement our primary dataset by providing the geographical coordinates (longitude and latitude) for the building permits. This allows us to visualize the building permits data on a map, which can provide additional insights into the spatial distribution and concentration of construction activity across New York City's boroughs and neighborhoods.
+
 ## Data Cleaning and Preprocessing:
 We started by cleaning the dataset and performing necessary preprocessing steps, such as handling missing values, converting data types, and extracting useful features.
 
