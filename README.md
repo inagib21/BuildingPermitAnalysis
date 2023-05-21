@@ -20,7 +20,9 @@ We identified pre-1940 NYC buildings and categorized them based on maintenance s
      
     
     No Recent Renovation (0)       1.00      1.00      1.00     13348    
-        Recent Renovation (1)       1.00      1.00      1.00     14234
+       
+       Recent Renovation (1)       1.00      1.00      1.00     14234
+                     
                      accuracy                           1.00     27582
                     macro avg       1.00      1.00      1.00     27582
                  weighted avg       1.00      1.00      1.00     27582
