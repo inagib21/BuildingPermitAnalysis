@@ -66,7 +66,16 @@ Our work can be extended in several ways:
 2. **Detailed Borough Analysis:** Understand micro-market trends within individual boroughs for hidden investment opportunities.
 3. **Refine Predictive Models:** Fine-tune models with more complex machine learning algorithms and granular data for accurate future trend predictions.
 4. **Expand to Other Markets:** Apply our methodology to different geographic areas for insights into diverse real estate markets.
+Certainly, here is a section to help navigate your repository:
 
-You can check the project [Notebook](https://colab.research.google.com/drive/18BKRAicX1gbMob93WoNRHUE39CLUfAOE#scrollTo=cl1J-CsNK_NO) for detailed analysis and findings. 
+## Navigating The Repository
 
-This README encapsulates our efforts to provide actionable insights for potential reinvestment in NYC's real estate, leveraging data-driven strategies to identify old-world charm and new development opportunities.
+1. **.gitignore:** This [file](https://github.com/inagib21/BuildingPermitAnalysis/blob/main/.gitignore) is used to exclude certain files from the repository. If there are files or paths that we want Git to ignore, we can add rules for them in this file.
+
+2. **LICENSE:** This [file](https://github.com/inagib21/BuildingPermitAnalysis/blob/main/LICENSE) contains information about the license that governs the use and distribution of the repository's content.
+
+3. **Notebook.ipynb:** This Jupyter  [Notebook](https://colab.research.google.com/drive/18BKRAicX1gbMob93WoNRHUE39CLUfAOE#scrollTo=cl1J-CsNK_NO) for detailed analysis and findings.  contains all the code used for data preprocessing, exploratory data analysis, model training, model evaluation, and other computations.
+
+4. **README.md:** This Markdown (file)[https://github.com/inagib21/BuildingPermitAnalysis/blob/main/README.md] provides an overview of the project, describes the business context, data, approach, results, and limitations, and explains how to navigate the repository. If you are viewing the project on GitHub, this is the first file you see on the main page of the repository.
+
+Remember, you can click on any file in the repository to view its contents. If you have any questions or need additional help navigating the repository, don't hesitate to ask.
