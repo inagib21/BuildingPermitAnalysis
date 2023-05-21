@@ -4,6 +4,10 @@ Our project has two primary goals: identify and predict trends in NYC building p
 # Business Understanding:
 Real estate, a key economic driver in NYC, continually evolves due to the constant demand for new construction. By understanding these trends, stakeholders, like investment firms, make informed decisions and capitalize on lucrative opportunities. 
 
+## Stakeholder: MetroStar Real Estate Investment Firm
+
+MetroStar Real Estate Investment Firm is a NYC-based entity keen on leveraging data to understand and predict city construction trends. By focusing on new developments and buildings ripe for renovation, the firm aims to capitalize on investment potential. Our data analysis and predictive modeling services will offer crucial insights, shaping their future investment strategies effectively.
+
 # Data Understanding: 
 We used two datasets, [DOB NOW: Build – Approved Permits](https://data.cityofnewyork.us/Housing-Development/DOB-NOW-Build-Approved-Permits/rbx6-tga4) and [PLUTO](https://www.nyc.gov/site/planning/data-maps/open-data/dwn-pluto-mappluto.page), which offer comprehensive information on building permits and extensive land use details respectively.
 
