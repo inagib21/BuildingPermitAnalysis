@@ -19,8 +19,8 @@ We cleaned and preprocessed the datasets by handling missing values, converting 
 We conducted an EDA to understand data trends, distributions, and relationships, and identified top community boards within each borough based on building permit growth.
 
 Here we can see the distribution of permits approved by borough:
-![image](<img width="739" alt="Screen Shot 2023-05-21 at 12 01 07 AM" src="https://github.com/inagib21/BuildingPermitAnalysis/assets/45716414/a454e6b1-f2bd-4645-852d-22c74a1979e8">
-)
+<img width="739" alt="Screen Shot 2023-05-21 at 12 01 07 AM" src="https://github.com/inagib21/BuildingPermitAnalysis/assets/45716414/574518f9-f6d3-4da1-baec-4f58cf85fca0">
+
 
 
 # Time Series Analysis and Forecasting: 
