@@ -11,6 +11,22 @@ We used two datasets, [DOB NOW: Build – Approved Permits](https://data.cityofn
 We identified pre-1940 NYC buildings and categorized them based on maintenance status post-2018: 
 - **Maintained Buildings:** Received upkeep since 2018, potentially in better condition but could still benefit from improvements.
 - **Unmaintained Buildings:** Lacked maintenance since 2018, offering significant renovation and value enhancement opportunities.
+![image](https://github.com/inagib21/BuildingPermitAnalysis/assets/45716414/5a7ddba4-2251-40d5-a1a7-e3ab69098da4)
+
+                                precision    recall  f1-score   support
+
+     No Recent Renovation (0)       1.00      1.00      1.00     13348
+        Recent Renovation (1)       1.00      1.00      1.00     14234
+
+                     accuracy                           1.00     27582
+                    macro avg       1.00      1.00      1.00     27582
+                 weighted avg       1.00      1.00      1.00     27582
+                 
+Classification Model Insights
+The 'Approved Year' feature played a critical role in our model due to its strong connection with recent renovation activity. This aligns with our goal of identifying older buildings in top community boards that haven't seen recent upgrades, enabling targeted renovation planning and effective resource allocation.
+
+However, the tight correlation between 'Approved Year' and the target variable 'recent_permit' might lead some to view this as data leakage. Hence, while the model successfully predicts recent renovations, its predictions may not go beyond what can be directly inferred from the 'Approved Year'.
+
 
 # Data Cleaning and Preprocessing:
 We cleaned and preprocessed the datasets by handling missing values, converting data types, and extracting useful features.
