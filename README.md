@@ -42,10 +42,13 @@ Here we can see the distribution of permits approved by borough:
 # Time Series Analysis and Forecasting: 
 We performed time series analysis on the permit data and utilized several models (ARIMA, SARIMA, Prophet, LSTM) to forecast permit approval trends over the next year for each top community board.
 
-Prediction results for community board with the most growth in BRONX is: 204.0
-![image](https://github.com/inagib21/BuildingPermitAnalysis/assets/45716414/152bbfbb-0f61-4295-9a0c-517e3a90a98c)
+### Prediction results for community board with the most growth in the BRONX.
+<img width="896" alt="Screen Shot 2023-05-21 at 12 19 44 AM" src="https://github.com/inagib21/BuildingPermitAnalysis/assets/45716414/60fecec1-d64a-48f6-aa04-0b28045a7632">
 
+RMSE: 8.979906
+MAE: 6.870866
 
+Our LSTM model's performance in predicting the number of building permits for the top community board in the Bronx is promising. The model achieved a Root Mean Squared Error (RMSE) of 8.98 and a Mean Absolute Error (MAE) of 6.87. These metrics suggest that our forecasts are close to the actual values, demonstrating the model's effectiveness in predicting building permit trends for future strategic planning.
 
 
 # Limitations
