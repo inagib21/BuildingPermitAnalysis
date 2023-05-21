@@ -45,6 +45,26 @@ Next, we applied time series analysis to the building permit data. We started wi
 
 This series of models allowed us to predict the growth of building permits with a degree of confidence and provide stakeholders with potentially valuable insights into future development opportunities in these areas.
 
+Certainly, here's an example of a Limitations and Further Analysis section for your README file:
 
-please view the first simple model here: 
+## Limitations
+
+1. **Historical Data:** Our analysis relies heavily on historical data, which, while useful, doesn't guarantee future trends. Real estate markets can be influenced by numerous unpredictable factors such as economic downturns, policy changes, and social events.
+
+2. **Scope of Data:** Our current analysis focuses on building classifications and permit approvals. However, real estate investment decisions should also take into account other factors like market demand, property prices, and local amenities, which are not covered in our current data set.
+
+3. **Geographical Focus:** The analysis is specific to NYC, limiting its applicability to other real estate markets. Each market has unique factors that need to be considered independently.
+
+4. **Predictive Model Assumptions:** Our forecasting models are based on a number of assumptions, such as a steady rate of growth and similar market conditions. These assumptions may not hold true, leading to variations in actual outcomes.
+
+## Further Analysis
+
+1. **Inclusion of Additional Factors:** We can enhance the accuracy of our analysis by including other factors, such as real estate price trends, rent yield ratios, neighborhood crime rates, school district ratings, and local amenities.
+
+2. **In-depth Borough Analysis:** A more detailed analysis can be conducted on individual boroughs to understand micro-market trends and identify hidden investment opportunities.
+
+3. **Refinement of Predictive Models:** Our models can be fine-tuned by introducing more complex machine learning algorithms and incorporating more granular data. This would enable more accurate prediction of future trends.
+
+4. **Expansion to Other Markets:** The methodology used for this analysis could be applied to other geographic areas to gain insights into diverse real estate markets.
+
 [Notebook](https://colab.research.google.com/drive/18BKRAicX1gbMob93WoNRHUE39CLUfAOE#scrollTo=cl1J-CsNK_NO)
