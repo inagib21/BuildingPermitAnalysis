@@ -20,6 +20,10 @@ We conducted an EDA to understand data trends, distributions, and relationships,
 
 # Time Series Analysis and Forecasting: 
 We performed time series analysis on the permit data and utilized several models (ARIMA, SARIMA, Prophet, LSTM) to forecast permit approval trends over the next year for each top community board.
+![image](https://github.com/inagib21/BuildingPermitAnalysis/assets/45716414/152bbfbb-0f61-4295-9a0c-517e3a90a98c)
+
+
+
 
 # Limitations
 While our analysis offers valuable insights, it's important to consider certain limitations:
