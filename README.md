@@ -16,16 +16,10 @@ We identified pre-1940 NYC buildings and categorized them based on maintenance s
 - **Maintained Buildings:** Received upkeep since 2018, potentially in better condition but could still benefit from improvements.
 - **Unmaintained Buildings:** Lacked maintenance since 2018, offering significant renovation and value enhancement opportunities.
 ![image](https://github.com/inagib21/BuildingPermitAnalysis/assets/45716414/5a7ddba4-2251-40d5-a1a7-e3ab69098da4)
+<img width="571" alt="Screen Shot 2023-05-21 at 12 15 57 AM" src="https://github.com/inagib21/BuildingPermitAnalysis/assets/45716414/8ef3d147-16f7-4920-8c03-4da95cfbb96f">
 
      
     
-    No Recent Renovation (0)       1.00      1.00      1.00     13348    
-       
-       Recent Renovation (1)       1.00      1.00      1.00     14234
-                     
-                     accuracy                           1.00     27582
-                    macro avg       1.00      1.00      1.00     27582
-                 weighted avg       1.00      1.00      1.00     27582
 
                       
 Classification Model Insights
