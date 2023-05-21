@@ -18,6 +18,11 @@ We cleaned and preprocessed the datasets by handling missing values, converting 
 # Exploratory Data Analysis (EDA):
 We conducted an EDA to understand data trends, distributions, and relationships, and identified top community boards within each borough based on building permit growth.
 
+Here we can see the distribution of permits approved by borough:
+![image](<img width="739" alt="Screen Shot 2023-05-21 at 12 01 07 AM" src="https://github.com/inagib21/BuildingPermitAnalysis/assets/45716414/a454e6b1-f2bd-4645-852d-22c74a1979e8">
+)
+
+
 # Time Series Analysis and Forecasting: 
 We performed time series analysis on the permit data and utilized several models (ARIMA, SARIMA, Prophet, LSTM) to forecast permit approval trends over the next year for each top community board.
 
