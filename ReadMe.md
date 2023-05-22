@@ -52,7 +52,27 @@ RMSE: 8.979906
 MAE: 6.870866
 
 Our LSTM model's performance in predicting the number of building permits for the top community board in the Bronx is promising. The model achieved a Root Mean Squared Error (RMSE) of 8.98 and a Mean Absolute Error (MAE) of 6.87. These metrics suggest that our forecasts are close to the actual values, demonstrating the model's effectiveness in predicting building permit trends for future strategic planning.
+Sure, I've made some adjustments to your provided text to create a new section for your Readme:
 
+---
+
+# Location Recommendations
+
+This analysis allowed us to identify top-performing community boards within each NYC borough, providing valuable insights for potential real estate investments:
+
+1. **Brooklyn ([CB 301.0](https://www.nyc.gov/site/brooklyncb1/about/about-bkcb1.page) - Neighborhoods like Williamsburg)**: Brooklyn is known for its diverse culture and creative energy. Its rapid development and top building types such as walk-up apartments and two-family houses signal a thriving real estate market. Commercial garages also feature prominently, underscoring the need for commercial real estate infrastructure in this bustling borough.
+
+2. **Bronx ([CB 204.0](https://www.nyc.gov/site/bronxcb4/about/about-bxcb4.page) - Neighborhoods like Highbridge, Concourse)**: The Bronx offers affordable real estate options and excellent connectivity. It is an emerging market with untapped potential. With a high prevalence of apartment buildings, both with and without stores, there's strong potential for residential and mixed-use buildings. The commonality of two-family brick buildings and one-story retail buildings enhances the appeal of this dynamic borough.
+
+3. **Manhattan ([CB 105.0](https://www.cb5.org/cb5m/) - Neighborhoods like Times Square, Theater District)**: At the heart of NYC, Manhattan provides prestigious real estate opportunities with potential for attractive returns. The popularity of office buildings and residential buildings with commercial units suggests a high demand for mixed-use properties. The presence of big-box stores indicates lucrative opportunities in the retail sector.
+
+4. **Queens ([CB 407.0](https://www.nyc.gov/site/queenscb7/about/about-qcb7.page) - Neighborhoods like Flushing, Whitestone)**: Renowned for its cultural diversity and dynamic economy, Queens provides an opportunity to cater to varied demographics in a growing market. The borough is dominated by one-family houses, both detached and semi-detached, and two-family semi-attached houses, making it ideal for family-oriented residential developments. Brick buildings and garages or gas stations also feature, offering diverse investment opportunities.
+
+5. **Staten Island ([CB 501.0](https://www.nyc.gov/site/statenislandcb1/about/about-staten-island-community-board-1.page) - Neighborhoods like St. George, Tompkinsville)**: Offering suburban charm and scenic landscapes, Staten Island is perfect for family-oriented investments, including opportunities for waterfront properties. Detached one-family and two-family houses are popular, reinforcing the borough's appeal for families. The presence of one-story garages or gas stations and shopping centers indicates a need for commercial infrastructure.
+
+Remember, these community boards can serve as focal points to explore surrounding neighborhoods for further opportunities. Thorough market research and consideration of individual investment goals and risk tolerance are essential before making any investment decisions.
+
+---
 
 # Limitations
 While our analysis offers valuable insights, it's important to consider certain limitations:
