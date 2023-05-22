@@ -48,11 +48,43 @@ We performed time series analysis on the permit data and utilized several models
 ### Prediction results for community board with the most growth in the BRONX.
 <img width="896" alt="Screen Shot 2023-05-21 at 12 19 44 AM" src="https://github.com/inagib21/BuildingPermitAnalysis/assets/45716414/60fecec1-d64a-48f6-aa04-0b28045a7632">
 
-RMSE: 8.979906
-MAE: 6.870866
+ - RMSE: 9.992816
+  - MAE: 7.383432
 
 Our LSTM model's performance in predicting the number of building permits for the top community board in the Bronx is promising. The model achieved a Root Mean Squared Error (RMSE) of 8.98 and a Mean Absolute Error (MAE) of 6.87. These metrics suggest that our forecasts are close to the actual values, demonstrating the model's effectiveness in predicting building permit trends for future strategic planning.
-Sure, I've made some adjustments to your provided text to create a new section for your Readme:
+
+Absolutely, we can include a section in your Readme for these results:
+
+---
+
+# Prediction Results
+
+Our time-series prediction model for community board growth across the boroughs provided the following results:
+
+- **Bronx (CB 204.0)**:
+  - RMSE: 9.992816
+  - MAE: 7.383432
+  
+- **Brooklyn (CB 301.0)**:
+  - RMSE: 31.734128
+  - MAE: 26.463640
+  
+- **Manhattan (CB 105.0)**:
+  - RMSE: 40.338833
+  - MAE: 31.508947
+  
+- **Queens (CB 407.0)**:
+  - RMSE: 24.946931
+  - MAE: 19.609213
+  
+- **Staten Island (CB 501.0)**:
+  - RMSE: 20.920738
+  - MAE: 17.686980
+
+These results show the root mean square error (RMSE) and the mean absolute error (MAE) for each borough's predicted growth. These metrics provide a measure of how well our model fits the observed data - lower values indicate better fit. Remember, these results are meant to serve as a guide and additional comprehensive analysis should always be conducted.
+
+---
+
 
 ---
 
