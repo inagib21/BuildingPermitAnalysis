@@ -1,4 +1,4 @@
-![image](https://github.com/inagib21/BuildingPermitAnalysis/assets/45716414/bb67dbe7-c231-4f44-b207-8f4593272ff3)
+![image](https://github.com/inagib21/BuildingPermitAnalysis/assets/45716414/80525c93-8edf-425b-827c-82f7af34bd4b)
 
 
 # Project Overview
