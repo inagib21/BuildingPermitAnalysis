@@ -53,7 +53,6 @@ We performed time series analysis on the permit data and utilized several models
 
 Our LSTM model's performance in predicting the number of building permits for the top community board in the Bronx is promising. The model achieved a Root Mean Squared Error (RMSE) of 8.98 and a Mean Absolute Error (MAE) of 6.87. These metrics suggest that our forecasts are close to the actual values, demonstrating the model's effectiveness in predicting building permit trends for future strategic planning.
 
-Absolutely, we can include a section in your Readme for these results:
 
 ---
 
