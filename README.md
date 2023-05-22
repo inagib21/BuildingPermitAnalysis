@@ -1,3 +1,6 @@
+![image](https://github.com/inagib21/BuildingPermitAnalysis/assets/45716414/bb67dbe7-c231-4f44-b207-8f4593272ff3)
+
+
 # Project Overview
 Our project has two primary goals: identify and predict trends in NYC building permits and classify pre-1940 buildings based on recent maintenance. These efforts provide critical insights for our investment firm stakeholders, helping them seize valuable real estate opportunities.
 
