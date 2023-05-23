@@ -89,7 +89,7 @@ These results show the root mean square error (RMSE) and the mean absolute error
 
 # Location Recommendations
 
-This analysis allowed us to identify top-performing community boards within each NYC borough, providing valuable insights for potential real estate investments:
+This analysis allowed us to identify top-performing community boards within each [NYC borough](http://maps.nyc.gov/doitt/nycitymap/), providing valuable insights for potential real estate investments:
 
 1. **Brooklyn ([CB 301.0](https://www.nyc.gov/site/brooklyncb1/about/about-bkcb1.page) - Neighborhoods like Williamsburg)**: Brooklyn is known for its diverse culture and creative energy. Its rapid development and top building types such as walk-up apartments and two-family houses signal a thriving real estate market. Commercial garages also feature prominently, underscoring the need for commercial real estate infrastructure in this bustling borough.
 
