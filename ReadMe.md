@@ -30,6 +30,10 @@ The 'Approved Year' feature played a critical role in our model due to its stron
 
 However, the tight correlation between 'Approved Year' and the target variable 'recent_permit' might lead some to view this as data leakage. Hence, while the model successfully predicts recent renovations, its predictions may not go beyond what can be directly inferred from the 'Approved Year'.
 
+In attempt to adress the data leakage and improve our model's performance, we identified and removed features potentially causing data leakage, specifically "Approved Date", "Approved Year", and "Approved Month". Despite removing these features, our model achieved a remarkable 99% accuracy. The "C B NO" feature was retained, given its significance in prediction. Our efforts confirm that our model can deliver reliable predictions even with these changes, demonstrating its robustness.
+
+
+
 
 # Data Cleaning and Preprocessing:
 We cleaned and preprocessed the datasets by handling missing values, converting data types, and extracting useful features.
