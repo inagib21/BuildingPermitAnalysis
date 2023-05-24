@@ -50,55 +50,43 @@ Here we can see the distribution of permits approved by borough:
 We performed time series analysis on the permit data and utilized several models (ARIMA, SARIMA, Prophet, LSTM) to forecast permit approval trends over the next year for each top community board.
 
 ### Prediction results for community board with the most growth in the BRONX.
-![image](https://github.com/inagib21/BuildingPermitAnalysis/assets/45716414/60bba678-5e90-402d-a8a0-363e0d90097c)
+![image](https://github.com/inagib21/BuildingPermitAnalysis/assets/45716414/9101d878-b5fb-4a0b-87c2-99947494fa39)
 
 
-- RMSE: 11.96
-  - MAE: 9.52
 
-Our Auto Sarimax model's performance in predicting the number of building permits for the top community board in the Bronx is promising. The model achieved a Root Mean Squared Error (RMSE) of 9.99 and a Mean Absolute Error (MAE) of 7.38. These metrics suggest that our forecasts are close to the actual values, demonstrating the model's effectiveness in predicting building permit trends for future strategic planning.
+- RMSE: 13.68
+  - MAE: 10.31
+
+Our LSTM model's performance in predicting the number of building permits for the top community board in the Bronx is promising. The model achieved a Root Mean Squared Error (RMSE) of 13.68 and a Mean Absolute Error (MAE) of 10.31. These metrics suggest that our forecasts are close to the actual values, demonstrating the model's effectiveness in predicting building permit trends for future strategic planning.
 
 
 ---
 
 # Prediction Results
 
-Our time-series prediction model for community board growth across the boroughs provided the following results:
-Here's the updated summary for the distribution of RMSE values, along with the optimal SARIMA parameters:
+Our LSTM model for predicting community board growth across the boroughs provided the following results:
 
 - **Bronx (CB 204.0)**:
-  - Optimal Seasonal ARIMA parameters: (0, 1, 1, 12)
-  - RMSE: 11.96
-  - MAE: 9.52
+  - RMSE: 13.68
+  - MAE: 10.31
 
 - **Brooklyn (CB 301.0)**:
-  - Optimal Seasonal ARIMA parameters: (0, 0, 0, 12)
-  - RMSE: 31.30
-  - MAE: 25.85
+  - RMSE: 33.68
+  - MAE: 28.21
 
 - **Manhattan (CB 105.0)**:
-  - Optimal Seasonal ARIMA parameters: (0, 0, 0, 12)
-  - RMSE: 46.64
-  - MAE: 36.50
+  - RMSE: 37.96
+  - MAE: 30.17
 
 - **Queens (CB 407.0)**:
-  - Optimal Seasonal ARIMA parameters: (0, 1, 0, 12)
-  - RMSE: 43.02
-  - MAE: 33.08
+  - RMSE: 24.04
+  - MAE: 18.08
 
 - **Staten Island (CB 501.0)**:
-  - Optimal Seasonal ARIMA parameters: (1, 0, 0, 12)
-  - RMSE: 25.85
-  - MAE: 21.48
+  - RMSE: 21.03
+  - MAE: 18.33
 
-
-These results show the root mean square error (RMSE) and the mean absolute error (MAE) for each borough's predicted growth. These metrics provide a measure of how well our model fits the observed data - lower values indicate better fit. Remember, these results are meant to serve as a guide and additional comprehensive analysis should always be conducted.
-
-- **Seasonal Order (p, d, q, s)**:
-  - **p**: The order of the autoregressive (AR) component, which represents the dependence between an observation and a certain number of past observations at seasonal intervals.
-  - **d**: The degree of differencing needed to make the time series stationary, i.e., removing trends and seasonality from the data.
-  - **q**: The order of the moving average (MA) component, which represents the dependency between an observation and a residual error from a moving average model applied to lagged observations.
-  - **s**: The length of the seasonal cycle in the data, which determines the number of observations at seasonal intervals.
+The average RMSE across all boroughs for the LSTM model was 26.08. These results show the root mean square error (RMSE) and the mean absolute error (MAE) for each borough's predicted growth. These metrics provide a measure of how well our model fits the observed data - lower values indicate better fit. Remember, these results are meant to serve as a guide and additional comprehensive analysis should always be conducted.
 
 ---
 
