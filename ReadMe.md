@@ -46,12 +46,13 @@ Here we can see the distribution of permits approved by borough:
 We performed time series analysis on the permit data and utilized several models (ARIMA, SARIMA, Prophet, LSTM) to forecast permit approval trends over the next year for each top community board.
 
 ### Prediction results for community board with the most growth in the BRONX.
-<img width="896" alt="Screen Shot 2023-05-21 at 12 19 44 AM" src="https://github.com/inagib21/BuildingPermitAnalysis/assets/45716414/60fecec1-d64a-48f6-aa04-0b28045a7632">
+![image](https://github.com/inagib21/BuildingPermitAnalysis/assets/45716414/60bba678-5e90-402d-a8a0-363e0d90097c)
 
- - RMSE: 9.992816
-  - MAE: 7.383432
 
-Our LSTM model's performance in predicting the number of building permits for the top community board in the Bronx is promising. The model achieved a Root Mean Squared Error (RMSE) of 9.99 and a Mean Absolute Error (MAE) of 7.38. These metrics suggest that our forecasts are close to the actual values, demonstrating the model's effectiveness in predicting building permit trends for future strategic planning.
+- RMSE: 11.96
+  - MAE: 9.52
+
+Our Auto Sarimax model's performance in predicting the number of building permits for the top community board in the Bronx is promising. The model achieved a Root Mean Squared Error (RMSE) of 9.99 and a Mean Absolute Error (MAE) of 7.38. These metrics suggest that our forecasts are close to the actual values, demonstrating the model's effectiveness in predicting building permit trends for future strategic planning.
 
 
 ---
@@ -59,28 +60,41 @@ Our LSTM model's performance in predicting the number of building permits for th
 # Prediction Results
 
 Our time-series prediction model for community board growth across the boroughs provided the following results:
+Here's the updated summary for the distribution of RMSE values, along with the optimal SARIMA parameters:
 
 - **Bronx (CB 204.0)**:
-  - RMSE: 9.992816
-  - MAE: 7.383432
-  
+  - Optimal Seasonal ARIMA parameters: (0, 1, 1, 12)
+  - RMSE: 11.96
+  - MAE: 9.52
+
 - **Brooklyn (CB 301.0)**:
-  - RMSE: 31.734128
-  - MAE: 26.463640
-  
+  - Optimal Seasonal ARIMA parameters: (0, 0, 0, 12)
+  - RMSE: 31.30
+  - MAE: 25.85
+
 - **Manhattan (CB 105.0)**:
-  - RMSE: 40.338833
-  - MAE: 31.508947
-  
+  - Optimal Seasonal ARIMA parameters: (0, 0, 0, 12)
+  - RMSE: 46.64
+  - MAE: 36.50
+
 - **Queens (CB 407.0)**:
-  - RMSE: 24.946931
-  - MAE: 19.609213
-  
+  - Optimal Seasonal ARIMA parameters: (0, 1, 0, 12)
+  - RMSE: 43.02
+  - MAE: 33.08
+
 - **Staten Island (CB 501.0)**:
-  - RMSE: 20.920738
-  - MAE: 17.686980
+  - Optimal Seasonal ARIMA parameters: (1, 0, 0, 12)
+  - RMSE: 25.85
+  - MAE: 21.48
+
 
 These results show the root mean square error (RMSE) and the mean absolute error (MAE) for each borough's predicted growth. These metrics provide a measure of how well our model fits the observed data - lower values indicate better fit. Remember, these results are meant to serve as a guide and additional comprehensive analysis should always be conducted.
+
+- **Seasonal Order (p, d, q, s)**:
+  - **p**: The order of the autoregressive (AR) component, which represents the dependence between an observation and a certain number of past observations at seasonal intervals.
+  - **d**: The degree of differencing needed to make the time series stationary, i.e., removing trends and seasonality from the data.
+  - **q**: The order of the moving average (MA) component, which represents the dependency between an observation and a residual error from a moving average model applied to lagged observations.
+  - **s**: The length of the seasonal cycle in the data, which determines the number of observations at seasonal intervals.
 
 ---
 
@@ -128,7 +142,7 @@ Certainly, here is a section to help navigate your repository:
 
 2. **LICENSE:** This [file](https://github.com/inagib21/BuildingPermitAnalysis/blob/main/LICENSE) contains information about the license that governs the use and distribution of the repository's content.
 
-3. **Notebook.ipynb:** This Jupyter  [Notebook](https://colab.research.google.com/drive/18BKRAicX1gbMob93WoNRHUE39CLUfAOE#scrollTo=cl1J-CsNK_NO) for detailed analysis and findings.  contains all the code used for data preprocessing, exploratory data analysis, model training, model evaluation, and other computations.
+3. **Notebook.ipynb:** This Jupyter  [Notebook](https://colab.research.google.com/github/inagib21/BuildingPermitAnalysis/blob/main/Notebook.ipynb#scrollTo=YZILY3F-EAiK) for detailed analysis and findings.  contains all the code used for data preprocessing, exploratory data analysis, model training, model evaluation, and other computations.
 
 4. **Presentation.pdf**: Provides the [presentation](https://github.com/inagib21/BuildingPermitAnalysis/blob/main/Presentation.pdf) associated with this project.
 
