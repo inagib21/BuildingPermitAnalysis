@@ -134,7 +134,7 @@ Certainly, here is a section to help navigate your repository:
 
 2. **LICENSE:** This [file](https://github.com/inagib21/BuildingPermitAnalysis/blob/main/LICENSE) contains information about the license that governs the use and distribution of the repository's content.
 
-3. **Notebook.ipynb:** This Jupyter  [Notebook](https://colab.research.google.com/github/inagib21/BuildingPermitAnalysis/blob/main/Notebook.ipynb#scrollTo=YZILY3F-EAiK) for detailed analysis and findings.  contains all the code used for data preprocessing, exploratory data analysis, model training, model evaluation, and other computations.
+3. **Notebook.ipynb:** This Jupyter  [Notebook](https://colab.research.google.com/drive/1R6J1QnCVCj_BNbYfrki1DRXVQGIqtomj#scrollTo=BQbRJphmgjeZ) for detailed analysis and findings.  contains all the code used for data preprocessing, exploratory data analysis, model training, model evaluation, and other computations.
 
 4. **Presentation.pdf**: Provides the [presentation](https://github.com/inagib21/BuildingPermitAnalysis/blob/main/Presentation.pdf) associated with this project.
 
