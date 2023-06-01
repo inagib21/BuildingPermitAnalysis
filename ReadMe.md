@@ -60,7 +60,7 @@ Our LSTM model's performance in predicting the number of building permits for th
 
 ---
 
-# Prediction Results
+# Prediction Results:
 
 Our LSTM model for predicting community board growth across the boroughs provided the following results:
 
@@ -91,8 +91,9 @@ The average RMSE across all boroughs for the LSTM model was 26.08. These results
 
 ---
 
-# Location Recommendations
+# Location Recommendations:
 <img width="1191" alt="Screen Shot 2023-05-21 at 9 10 11 PM" src="https://github.com/inagib21/BuildingPermitAnalysis/assets/45716414/6ae910b9-57a9-4175-acc6-ee0fb70695bd">
+
 
 
 
@@ -112,7 +113,7 @@ Remember, these community boards can serve as focal points to explore surroundin
 
 ---
 
-# Limitations
+# Limitations:
 While our analysis offers valuable insights, it's important to consider certain limitations:
 
 1. **Reliance on Historical Data:** Past trends may not guarantee future outcomes due to unpredictable factors such as economic downturns or policy changes.
@@ -120,7 +121,7 @@ While our analysis offers valuable insights, it's important to consider certain 
 3. **Geographical Limitation:** Our NYC-centric analysis might not translate to other real estate markets with unique factors.
 4. **Model Assumptions:** Our models assume a steady rate of growth and similar market conditions, which might not hold true.
 
-# Further Analysis
+# Further Analysis:
 Our work can be extended in several ways:
 
 1. **Incorporate Additional Factors:** Enhance analysis accuracy by including elements like real estate prices, neighborhood crime rates, and school district ratings.
@@ -129,7 +130,7 @@ Our work can be extended in several ways:
 4. **Expand to Other Markets:** Apply our methodology to different geographic areas for insights into diverse real estate markets.
 Certainly, here is a section to help navigate your repository:
 
-## Navigating The Repository
+## Navigating The Repository:
 
 1. **.gitignore:** This [file](https://github.com/inagib21/BuildingPermitAnalysis/blob/main/.gitignore) is used to exclude certain files from the repository. If there are files or paths that we want Git to ignore, we can add rules for them in this file.
 
