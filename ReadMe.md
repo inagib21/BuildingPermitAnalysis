@@ -92,6 +92,8 @@ The average RMSE across all boroughs for the LSTM model was 26.08. These results
 ---
 
 # Location Recommendations
+![image](https://github.com/inagib21/BuildingPermitAnalysis/assets/45716414/f0a97744-f640-44c3-ac07-5d77bc6d340a)
+
 
 This analysis allowed us to identify top-performing community boards within each [NYC borough](http://maps.nyc.gov/doitt/nycitymap/), providing valuable insights for potential real estate investments:
 
