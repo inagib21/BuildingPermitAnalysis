@@ -1,7 +1,7 @@
 ![image](https://github.com/inagib21/BuildingPermitAnalysis/assets/45716414/bb329b77-7bd0-43f2-ae72-40080d9de0b3)
 # Project Overview:
 Our project has two primary goals: identify and predict trends in NYC building permits and classify pre-1940 buildings based on recent maintenance. These efforts provide critical insights for our investment firm stakeholders, helping them seize valuable real estate opportunities.
-the code and juptyer notebook to this can be found here: [Notebook](https://colab.research.google.com/drive/1R6J1QnCVCj_BNbYfrki1DRXVQGIqtomj#scrollTo=BQbRJphmgjeZ)
+The Juptyer notebook with code to this project can be found here: [Notebook](https://colab.research.google.com/drive/1R6J1QnCVCj_BNbYfrki1DRXVQGIqtomj#scrollTo=BQbRJphmgjeZ)
 
 # Business Understanding:
 Real estate, a key economic driver in NYC, continually evolves due to the constant demand for new construction. By understanding these trends, stakeholders, like investment firms, make informed decisions and capitalize on lucrative opportunities. 
